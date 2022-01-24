@@ -9,13 +9,13 @@ Viso 70 valandų per 7 savaites.
 
 ## Paskaitų turinys
 
--   [1 savaitė](./1%20savaitė/README.md)
--   [2 savaitė](./2%20savaitė/README.md)
--   [3 savaitė](./3%20savaitė/README.md)
--   [4 savaitė](./4%20savaitė/README.md)
--   [5 savaitė](./5%20savaitė/README.md)
--   [6 savaitė](./6%20savaitė/README.md)
--   [7 savaitė](./7%20savaitė/README.md)
+-   [1 savaitė](./1%20savaitė)
+-   [2 savaitė](./2%20savaitė)
+-   [3 savaitė](./3%20savaitė)
+-   [4 savaitė](./4%20savaitė)
+-   [5 savaitė](./5%20savaitė)
+-   [6 savaitė](./6%20savaitė)
+-   [7 savaitė](./7%20savaitė)
 
 ## Papildomas turinys (tips and tricks)
 
