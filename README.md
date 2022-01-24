@@ -17,7 +17,7 @@ Viso 70 valandų per 7 savaites.
 -   [6 savaitė](./6%20savaitė/README.md)
 -   [7 savaitė](./7%20savaitė/README.md)
 
-## Papildomas turinys
+## Papildomas turinys (tips and tricks)
 
 -   [Klavišų kombinacijos](./keyboard-shortcuts.md)
 -   [Kaip Google'inti?](./how-to-google.md)
