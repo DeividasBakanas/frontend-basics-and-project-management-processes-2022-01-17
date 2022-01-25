@@ -2,6 +2,8 @@
 
 ## 1.1 Intro paskaita
 
+Temos
+
 -   Apie kurso dalį.
 -   Apie ką yra Front-end?
 -   Reikalingi įgūdžiai
@@ -34,9 +36,37 @@ Papildomi šaltiniai
 
 Temos
 
+-   Paskaitų repozitorijos apžvalga
+    -   Turinio struktūra
+    -   Paskaitos struktūra
+    -   Klaviatūros trumpiniai
+    -   Kaip Google'inti?
+-   Visual Studio Code apžvalga
+    -   Failo / aplanko projekto sukūrimas
+    -   Pagrindinės zonos
+    -   User preferences vs. Workspace preferences
+    -   Text wrap / Auto closing ir kiti nustatymai
+-   Kaip pasirinkti naršyklę, kuria atidaromi HTML?
+-   Statinė kodo analizė (HTMLHint Visual Studio Code plėtinys)
+-   HTML validavimas
+-   HTML koduotės
+-   HTML entities - specialių simbolių naudojimas
+-   Namų darbas (keyboard shortcuts + HTMLHint)
+
 Pagrindiniai šaltiniai
 
+-   Repozitorijos URL <https://github.com/DeividasBakanas/frontend-basics-and-project-management-processes-2022-01-17>
+-   HTMLHint extension <https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint>
+-   HTML validatorius <https://validator.w3.org/>
+-   HTML Charset <https://www.w3schools.com/html/html_charset.asp>
+-   HTML Specialūs simboliai <https://www.w3schools.com/html/html_entities.asp>
+
 Papildomi šaltiniai
+
+-   `What does <meta http-equiv="X-UA-Compatible" content="IE=edge"> do?` <https://stackoverflow.com/a/6771584>
+-   `Responsive Web Design - The Viewport` <https://www.w3schools.com/css/css_rwd_viewport.asp>
+-   `Don’t be fooled by w3schools, UTF-8 is not the default HTML5 charset` <https://brouken.com/2016/07/dont-be-fooled-by-w3schools-utf-8-is-not-the-default-html5-charset/>
+-   Characters definitions <https://www.compart.com/en/unicode>
 
 ## 1.3
 
