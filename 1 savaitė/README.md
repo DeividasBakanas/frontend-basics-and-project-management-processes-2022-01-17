@@ -76,6 +76,13 @@ Pagrindiniai šaltiniai
 
 Papildomi šaltiniai
 
+-   Table of keyboard shortcuts for different OSes <https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts>
+
+Namų darbai:
+
+-   [Bazinė struktūra](./1.3/assigments/basic-structure)
+-   [Savaitės valgiaraštis](./1.3/assigments/weekly-menu)
+
 ## 1.4
 
 Temos
