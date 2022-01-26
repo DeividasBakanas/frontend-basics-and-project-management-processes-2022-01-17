@@ -72,16 +72,42 @@ Papildomi šaltiniai
 
 Temos
 
+-   Tuščių simbolių (whitespace) traktavimas HTML, pre elementas
+-   Non-breaking Space (nepertraukiamas tarpas)
+-   `br` elementas
+-   Kodo komentarai
+-   Blokiniai ir inline elementai
+
+    -   Savybės
+    -   Blokinių elementų pavyzdžiai (p, blockquote, div)
+    -   Inline elementų pavyzdžiai (em, strong, br, q, span)
+
+-   HTML antraštės
+-   HTML sąrašai
+    -   Ordered list - surikiuotas sąrašas
+    -   Unordered list - nerikiuotas sąrašas
+    -   Definition list - apibrėžimų sąrašas
+-   Nuorodos internete (puslapių, HTML failų, paveikslėlių, ...)
+-   Nuorodos elementas a
+    -   Nuorodos į kitą dokumentą
+    -   Papildomas nuorodų funkcionalumas (email, phone links)
+    -   Nuorodos į elementą
+    -   URL percent encoding - simbolių kodavimas nuorodų adresuose
+-   Namų darbas
+    -   [Bazinė struktūra](./1.3/assigments/basic-structure/basic-structure.md)
+    -   [Savaitės valgiaraštis](./1.3/assigments/weekly-menu/weekly-menu.md)
+
 Pagrindiniai šaltiniai
+
+-   Getting started with HTML <https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started>
+-   HTML text fundamentals <https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals>
+-   Headings <https://www.w3schools.com/html/html_headings.asp>
+-   Links <https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks>
+-   HTML comments <https://www.w3schools.com/html/html_comments.asp>
 
 Papildomi šaltiniai
 
 -   Table of keyboard shortcuts for different OSes <https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts>
-
-Namų darbai:
-
--   [Bazinė struktūra](./1.3/assigments/basic-structure/basic-structure.md)
--   [Savaitės valgiaraštis](./1.3/assigments/weekly-menu/weekly-menu.md)
 
 ## 1.4
 
