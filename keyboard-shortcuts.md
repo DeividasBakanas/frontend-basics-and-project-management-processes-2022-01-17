@@ -35,20 +35,22 @@ Dėmesio! Mac operacinės sistemos klavisų kombinacijų sąrašas nėra pilnas.
 | CTRL + Home                              | nukelia kursorių į dokumento pradžią                                 |
 | CTRL + End                               | nukelia kursorių į dokumento pabaigą                                 |
 | SHIFT + pelės ratukas                    | pakeičia aktyvią slinkties juostą į horizontalią (horizontal scroll) |
+| WIN + L                                  | užrakina ekraną                                                      |
 
 ## Chrome
 
-| Windows      | Mac     | Aprašymas                                                              |
-| ------------ | ------- | ---------------------------------------------------------------------- |
-| F5, CTRL + R | CMD + R | refresh - atnaujinamas puslapis                                        |
-| F12          |         | atidaro Developer Tools                                                |
-| CTRL + T     | CMD + T | atidaro naują kortelę (new tab)                                        |
-| CTRL + W     | CMD + W | uždaro aktyvią kortelę (close tab)                                     |
-| CTRL + N     | CMD + N | atidaro naują langą (new window)                                       |
-| CTRL + TAB   |         | pakeičiama aktyvi kortelė (active tab)                                 |
-| CTRL + "+"   |         | padidinamas ekrano vaizdas                                             |
-| CTRL + "-"   |         | sumažinamas ekrano vaizdas                                             |
-| CTRL + 0     |         | ekrano vaizdas grąžinamas į pradinę padėtį (prieš mažinimą / didinimą) |
+| Windows          | Mac     | Aprašymas                                                              |
+| ---------------- | ------- | ---------------------------------------------------------------------- |
+| F5, CTRL + R     | CMD + R | refresh - atnaujinamas puslapis                                        |
+| F12              |         | atidaro Developer Tools                                                |
+| CTRL + T         | CMD + T | atidaro naują kortelę (new tab)                                        |
+| CTRL + W         | CMD + W | uždaro aktyvią kortelę (close tab)                                     |
+| CTRL + SHIFT + T |         | sugrąžina paskiausiai uždarytą kortelę (reopen closed tab)             |
+| CTRL + N         | CMD + N | atidaro naują langą (new window)                                       |
+| CTRL + TAB       |         | pakeičiama aktyvi kortelė (active tab)                                 |
+| CTRL + "+"       |         | padidinamas ekrano vaizdas                                             |
+| CTRL + "-"       |         | sumažinamas ekrano vaizdas                                             |
+| CTRL + 0         |         | ekrano vaizdas grąžinamas į pradinę padėtį (prieš mažinimą / didinimą) |
 
 ## Visual Studio Code
 
@@ -60,6 +62,7 @@ Dėmesio! Mac operacinės sistemos klavisų kombinacijų sąrašas nėra pilnas.
 | CTRL + N                           | CMD + N                | atidaro naują kortelę (new tab)                                       |
 | CTRL + TAB                         | Control + TAB          | pakeičiama aktyvi kortelė (active tab)                                |
 | CTRL + W                           | CMD + W                | uždaro aktyvią kortelę (close tab)                                    |
+| CTRL + SHIFT + T                   |                        | sugrąžina paskiausiai uždarytą kortelę (reopen closed tab)            |
 | ALT + Rodyklė į viršų              | ALT + Rodyklė į viršų  | aktyvi eilutė arba pažymėtas tekstas perkeliamas viena eilute į viršų |
 | ALT + Rodyklė į apačią             | ALT + Rodyklė į apačią | aktyvi eilutė arba pažymėtas tekstas perkeliamas viena eilute žemyn   |
 | CTRL + /                           |                        | užkomentuojamas kodas                                                 |
@@ -67,3 +70,4 @@ Dėmesio! Mac operacinės sistemos klavisų kombinacijų sąrašas nėra pilnas.
 | CTRL + "-"                         |                        | sumažinamas ekrano vaizdas                                            |
 | ALT + Z                            |                        | įjungti / išjungti word-wrap                                          |
 | CTRL + SHIFT + V                   |                        | markdown'o preview                                                    |
+| CTRL + .                           |                        | parodo galimus automatinius veiksmus jei tokių yra                    |
