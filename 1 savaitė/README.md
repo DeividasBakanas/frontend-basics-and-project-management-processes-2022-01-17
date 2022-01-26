@@ -80,8 +80,8 @@ Papildomi šaltiniai
 
 Namų darbai:
 
--   [Bazinė struktūra](./1.3/assigments/basic-structure)
--   [Savaitės valgiaraštis](./1.3/assigments/weekly-menu)
+-   [Bazinė struktūra](./1.3/assigments/basic-structure/basic-structure.md)
+-   [Savaitės valgiaraštis](./1.3/assigments/weekly-menu/weekly-menu.md)
 
 ## 1.4
 
