@@ -113,6 +113,45 @@ Papildomi šaltiniai
 
 Temos
 
+-   Paveikslėlių tipai - rastrinė grafika
+    -   Lossless arba lossy
+    -   Taškinių paveikslėlių glaudinimas
+    -   Ar lossless geriau už lossy?
+    -   Rastrinių formatų palyginimas
+-   Paveikslėlių tipai - vektorinė grafika
+    -   svg elementas
+-   Vektorinė grafika prieš taškinę (rastrinę)
+-   Paveikslėliai HTML dokumente
+    -   img elementas
+    -   alt atributas - alternatyvus tekstas
+    -   paveikslėlių Base64 kodavimas
+    -   loading atributas - lazy loading (web.dev)
+    -   srcset atributas - paveikslėlio pritaikymas skirtingoms sąlygoms
+    -   picture elementas - skirtingas paveikslėlis skirtingomis sąlygomis
+-   Paveikslėlių problemos interneto puslapiuose
+-   Kaip optimaliai naudoti paveikslėlius?
+    -   Paveikslėlių optimizavimas - TinyPNG
+    -   img elemento loading atributas
+    -   img elemento src atributas
+    -   picture elementas
+
 Pagrindiniai šaltiniai
 
+-   Rastrinė (taškinė) <https://lt.wikipedia.org/wiki/Ta%C5%A1kin%C4%97_grafika>
+-   Vektorinė (taškinė) <https://flamingoforest.eu/paslaugos/vektorine-grafika/>
+-   WebP paveikslėlių formatas <https://developers.google.com/speed/webp>
+-   Formatų palyginimas <https://www.shareus.com/windows/image-formats-comparison-webp-vs-jpg-vs-png.html>
+-   Rastrinių (taškinių) paveikslėlių optimizavimas - TinyPNG <https://tinypng.com/>
+-   img elementas <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img>
+-   Data URI <https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs>
+-   srcset pavyzdžiai <https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#resolution_switching_different_sizes>, <https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#resolution_switching_same_size_different_resolutions>
+-   **picture** elementas <https://www.w3schools.com/tags/tag_picture.asp>, <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture>
+
 Papildomi šaltiniai
+
+-   JPEG glaudinimas detaliau <https://www.youtube.com/watch?v=Ba89cI9eIg8>
+-   JPG ir WebP dydžio palyginimas <https://www.keycdn.com/support/jpg-to-webp>
+-   Animuoto PNG palaikymas <https://caniuse.com/apng>
+-   Paveikslėlio konvertavimas į Base64 <https://www.base64-image.de/>
+-   MIME types <https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types>
+-   Base64 standartas <https://datatracker.ietf.org/doc/html/rfc4648>
