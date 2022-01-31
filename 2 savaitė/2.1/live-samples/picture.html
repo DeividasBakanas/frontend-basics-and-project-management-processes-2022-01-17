@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture elementas</title>
+</head>
+
+<body>
+    <!-- min-width - nuo kokio mažiausio paveikslėlio dydžio į viršų atitinka sąlyga -->
+    <!-- max-width - nuo kokio didžiausio paveikslėlio dydžio į apačią atitinka sąlyga -->
+    <picture>
+        <source media="(max-width: 400px)"
+            srcset="https://cdn.pixabay.com/photo/2015/04/19/08/32/rose-729509_960_720.jpg" />
+        <source media="(max-width: 800px)"
+            srcset="https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_960_720.jpg" />
+        <source media="(max-width: 1200px)"
+            srcset="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_960_720.jpg" />
+        <img src="https://cdn.pixabay.com/photo/2021/09/13/08/18/blue-flower-6620619_960_720.jpg" alt="Blue Flower" />
+    </picture>
+</body>
+
+</html>

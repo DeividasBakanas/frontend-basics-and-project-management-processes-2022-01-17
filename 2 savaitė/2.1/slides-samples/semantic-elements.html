@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantiniai elementai</title>
+</head>
+
+<body>
+    <h1>Semantiniai elementai</h1>
+
+    <h2>Svarbos išryškinimas</h2>
+    <ul>
+        <li><strong>Stiprus tekstas</strong></li>
+        <li><em>Išskirtas tekstas</em></li>
+        <li><mark>Pažymėtas tekstas</mark></li>
+    </ul>
+
+    <h2>Citavimas</h2>
+    <ul>
+        <li>
+            <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+                Block tipo citavimo elementas, skirtas cituoti atskirą tekstą.
+            </blockquote>
+        </li>
+        <li>
+            <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">
+                Inline tipo citavimo elementas, skirtas cituoti vidury teksto
+            </q>.
+        </li>
+        <li>
+            <cite>
+                Elementas skirtas pažymėti cituojamos teksto šaltinį (panašiai kaip "cite" atributas, tik matomas
+                vartotojui), turėtų talpinti cituojamo šaltinio pavadinimą.
+            </cite>
+        </li>
+    </ul>
+
+    <h2>Kompiuterinio kodo aprašymas (code, var, kbd, samp)</h2>
+    <ul>
+        <li>
+            <code>
+                &lt;code&gt;aprašo kompiuterio kodą&lt;code&gt;
+            </code>
+        </li>
+        <li>
+            <var>
+                kintamojo_pavadinimas
+            </var>
+        </li>
+        <li>
+            <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
+        </li>
+        <li>
+            <samp>
+                <pre>
+$ echo "Elementas skirtas vaizduoti kompiuterio programos išvestą tekstą"
+Elementas skirtas vaizduoti kompiuterio programos išvestą tekstą
+
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+(use "git add &lt;file&gt;..." to update what will be committed)
+    (use "git restore &lt;file&gt;..." to discard changes in working directory)
+        modified: "2 savait\304\227/README.md"
+                </pre>
+            </samp>
+        </li>
+    </ul>
+
+    <h2>Laiko aprašymas</h2>
+    <time datetime="2022-02-16">Šių metų Vasario 16-oji</time>
+
+    <h2>Vietos aprašymas</h2>
+    <address>Saulėtekio al. 17, LT-10224 Vilnius</address>
+
+    <h2>Trumpiniai</h2>
+    <abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascade Style Sheet">CSS</abbr>
+
+    <h2>"title" atributas</h2>
+    Tai globalus atributas. Kuris suteiki bet kuriam
+    <span title="Turimas galvoje HTML elementas">elementui</span>
+    paaiškinamąjį tekstą.
+
+    <h2>Laipsniai ir indeksai</h2>
+    <ul>
+        <li>x<sup>2</sup></li>
+        <li>
+            C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>
+        </li>
+    </ul>
+
+    <h2>Figūros išskyrimas</h2>
+    <figure>
+        <img src="./cc0-images/elephant-660-480.jpg" alt="Dramblys saulėlydyje">
+        <figcaption>Dramblys saulėlydyje</figcaption>
+    </figure>
+
+    <h2>Pridėjimas, išėmimas</h2>
+    <ul>
+        <li>
+            <ins cite="https://bit.lt" datetime="2022-01-31">
+                Turinys pridėtas su data ir šaltiniu paaiškinančiu pakeitimą.
+            </ins>
+        </li>
+        <li>
+            <del cite="https://bit.lt" datetime="2022-01-31">
+                Turinys išmestas su data ir šaltiniu paaiškinančiu pakeitimą.
+            </del>
+        </li>
+        <li>
+            <ins>Tiesiog pridėtas...</ins>
+        </li>
+        <li>
+            <ins>Tiesiog ištrintas...</ins>
+        </li>
+    </ul>
+
+    <h2>Semantinių elementų kombinavimas</h2>
+    <figure>
+        <figcaption><cite>Edsger Dijkstra:</cite></figcaption>
+        <blockquote>If debugging is the process of removing software bugs,
+            then programming must be the process of putting them in.</blockquote>
+    </figure>
+
+    <figure>
+        <figcaption>
+            Get browser details using <code>navigator</code>.
+        </figcaption>
+        <code>
+            <pre>
+function NavigatorExample() {
+    var txt;
+    txt = "Browser CodeName: " + navigator.appCodeName + "; ";
+    txt+= "Browser Name: " + navigator.appName + "; ";
+    txt+= "Browser Version: " + navigator.appVersion  + "; ";
+    txt+= "Cookies Enabled: " + navigator.cookieEnabled  + "; ";
+    txt+= "Platform: " + navigator.platform  + "; ";
+    txt+= "User-agent header: " + navigator.userAgent  + "; ";
+    console.log("NavigatorExample", txt);
+}
+            </pre>
+        </code>
+    </figure>
+
+    <strong>
+        <em>
+            <mark>
+                <ins>
+                    <del>
+                        Nesamonė
+                    </del>
+                </ins>
+            </mark>
+        </em>
+    </strong>
+</body>
+
+</html>
