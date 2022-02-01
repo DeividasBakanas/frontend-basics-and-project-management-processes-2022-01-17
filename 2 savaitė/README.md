@@ -65,9 +65,49 @@ Papildomi šaltiniai
 
 Temos
 
+-   Semantinių elementų pavyzdžiai
+    -   Pridėjimas, išėmimas (ins, del)
+-   Semantinių elementų kombinavimas
+
+-   Išvesties kodo peržiūra
+-   DevTools
+
+    -   Elements - puslapio turinys
+        -   kuo skiriasi nuo View Source
+        -   kas yra DOM ir manipuliavimas juo
+        -   stilių bandymai
+        -   įrenginio simuliacija
+        -   klaidų paieška; debugging sąvoka
+    -   Console - JavaScript konsolė\*
+    -   Source - į naršyklę parsiųstas kodas
+    -   Application - puslapio naršyklėje saugoma informacija
+    -   Performance, Memory - puslapio našumas
+    -   Lighthouse - puslapio kokybės įvertinimas
+        -   Našumas (Performance)
+        -   Prieinamumas (Accessibility)
+        -   Best Practices (Geroji praktika)
+        -   SEO
+    -   Network - interneto srautas
+    -   Trumpa užduotis (pavogti vėliavą)
+
+-   Kodo valdymo problematika dirbant komandoje
+-   Versijų kontrolė
+-   Git technologija
+-   Git įrašymas
+
 Pagrindiniai šaltiniai
 
+-   Semantiniai elementai <https://www.w3schools.com/html/html5_semantic_elements.asp>, <https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html>
+-   DevTools <https://developer.chrome.com/docs/devtools/>
+-   Version Control <https://en.wikipedia.org/wiki/Version_control>
+-   What is Git? <https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F>
+-   Git parsiuntimo nuoroda <https://git-scm.com/download>
+-   Git įrašymo [žingsniai](./2.2/slides-samples/git-install/git-install-steps.pdf)
+
 Papildomi šaltiniai
+
+-   ins, del elementai <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins>, <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del>
+-   Strikethrough using HTML5 <https://medium.com/swlh/strikethrough-using-html5-26fea2020a72>
 
 ## 2.3
 
