@@ -113,9 +113,45 @@ Papildomi šaltiniai
 
 Temos
 
+-   Terminalas
+    -   Terminalas. Pagrindiniai naudojimo scenarijai (bazinis funkcionalumas)
+        -   Nueiti į tam tikrą vietą
+            -   cd - change directory
+            -   pwd - print working directory
+            -   ls - list structure
+        -   Perskaityti tam tikrą failą
+            -   cat - concatenate files
+        -   Sukurti failą
+            -   mkdir - make directory
+            -   touch
+        -   Redaguoti failą
+            -   vi - visual (text editor)
+        -   Paleisti tam tikrą failą
+        -   Kopijuoti failą
+            -   cp - copy
+        -   Ištrinti failą
+            -   rm - remove
+            -   rmdir - remove directory
+        -   Perkelti / pervadinti failą / aplanką
+            -   mv - move
+    -   \-\- help, Git Bash Here
+    -   Visual Studio Code integruotas terminalas
+    -   Trumpa užduotis (terminalas)
+-   Vietinės repozitorijos sukūrimas (git init) + pradinė konfigūracija (git config)
+-   Git naudojimo ciklas (change, add, commit, push (pull), repeat)
+-   Kodas debesyje - Github
+-   Repozitorijos kūrimas Github
+-   Vietinės repozitorijos susiejimas su nutolusia repozitorija (git add remote)
+
 Pagrindiniai šaltiniai
 
+-   Terminalas (bash) <https://www.educative.io/blog/bash-shell-command-cheat-sheet>
+-   GitHub įvadas <https://docs.github.com/en/get-started>
+-   Git Hello World <https://docs.github.com/en/get-started/quickstart/hello-world>
+
 Papildomi šaltiniai
+
+-   Git Cheat Sheet <https://education.github.com/git-cheat-sheet-education.pdf>
 
 ## 2.4
 
