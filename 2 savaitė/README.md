@@ -145,7 +145,7 @@ Temos
 
 Pagrindiniai šaltiniai
 
--   Terminalas (bash) <https://www.educative.io/blog/bash-shell-command-cheat-sheet>
+-   Terminalas (bash) <https://cs.colby.edu/maxwell/courses/tutorials/terminal/>, <https://www.educative.io/blog/bash-shell-command-cheat-sheet>
 -   GitHub įvadas <https://docs.github.com/en/get-started>
 -   Git Hello World <https://docs.github.com/en/get-started/quickstart/hello-world>
 
@@ -157,6 +157,20 @@ Papildomi šaltiniai
 
 Temos
 
+-   Kodas debesyje - Github
+-   Repozitorijos kūrimas Github
+-   Vietinės repozitorijos susiejimas su nutolusia repozitorija (git add remote)
+-   README.md ir markdown
+-   Repozitorijos klonavimas (git clone)
+-   Kodo šakos (branches)
+-   Kodo pateikimas (pull request)
+-   Kodo versijų konfliktai (merge conflicts)
+
 Pagrindiniai šaltiniai
 
+-   GitHub įvadas <https://docs.github.com/en/get-started>
+-   Git cheat sheet <https://education.github.com/git-cheat-sheet-education.pdf>
+
 Papildomi šaltiniai
+
+-   Markdown <https://www.markdownguide.org/basic-syntax/>
