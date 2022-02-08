@@ -9,10 +9,15 @@
 </head>
 
 <body>
-    <form action="https://www.google.com/search" method="post">
-        <input type="text" name="q" placeholder="Įveskite paieškos frazę!"/>
+    <form action="https://www.google.com/search" method="get" id="search-form">
+        <input type="text" name="q" placeholder="Įveskite paieškos frazę!" />
         <button>"Google" paieška</button>
+        <input type="submit" value="&quot;Bing&quot; paieška" formaction="https://www.bing.com/search" />
+        <input type="submit" value="&quot;Yahoo&quot; paieška" formaction="https://search.yahoo.com/search" />
     </form>
+
+    <hr />
+    <input type="submit" value="Pateikti" form="search-form" />
 </body>
 
 </html>

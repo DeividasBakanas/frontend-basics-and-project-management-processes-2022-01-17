@@ -13,13 +13,48 @@
         <div>
             <label>
                 Pirmas input'as:
-                <input type="text" placeholder="Įveskite duomenis..." name="first-input" />
+                <input type="text" placeholder="Įveskite duomenis..." name="first-input"
+                    style="background-color: goldenrod;" />
             </label>
         </div>
         <div>
             <label>
                 Antras input'as <sup>1</sup>:
                 <input type="text" value="Pradinė reikšmė" id="second-input" name="second-input" />
+            </label>
+        </div>
+        <fieldset>
+            <legend>Adresas</legend>
+            <div>
+                <label>
+                    Gatvė:
+                    <input name="street" />
+                </label>
+            </div>
+            <div>
+                <label>
+                    Miestas:
+                    <input name="city" />
+                </label>
+            </div>
+        </fieldset>
+        <div>
+            <label>
+                Paprastas text input:
+                <input type="text" value="Vienos eilutės tekstas" />
+            </label>
+        </div>
+        <div>
+            <label>
+                Multi-line įvestis:
+                <textarea name="laiskas"
+                    style="height: 200px; min-height: 200px; max-height: 300px; width: 300px; max-width: 400px; min-width: 200px;">
+Laba diena,
+
+geros dienos...
+
+Viso...
+                </textarea>
             </label>
         </div>
         <div>

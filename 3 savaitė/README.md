@@ -57,9 +57,38 @@ Papildomi šaltiniai
 
 Temos
 
+-   label elementas
+    -   elementas ne viduje (for atributas)
+    -   keletas label elementų vienam input’ui
+-   form elementas
+    -   form atributai action ir method (get ir post - privalumai / trūkumai)
+    -   input elemento atributas name ir
+    -   formos duomenų pateikimas į serverį
+-   Trumpa užduotis (prisijungimo forma)
+-   input type=”submit” / button / type=”reset”
+    -   formaction, formmethod atributai
+-   fieldset ir legend elementai
+-   Globalus style atributas (inline stiliai)
+    -   aprašymo būdas
+    -   keletas properties pavyzdžių
+        -   width, height
+        -   color
+        -   background-color
+-   textarea elementas
+    -   Savybės
+
 Pagrindiniai šaltiniai
 
+-   Formų pagrindai <https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form>
+    -   label elementas <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label>
+-   Input types <https://www.w3schools.com/html/html_form_input_types.asp>, <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types>
+-   button <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button>
+-   style atributas <https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style>, <https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#attr-style>
+-   Textarea <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea>
+
 Papildomi šaltiniai
+
+-   CSS properties sąrašas - <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference>, <https://www.w3schools.com/cssref/>
 
 ## 3.3
 
