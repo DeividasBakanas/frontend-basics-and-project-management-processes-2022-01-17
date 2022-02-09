@@ -94,9 +94,68 @@ Papildomi šaltiniai
 
 Temos
 
+-   input type “number”
+-   HTML formų validacija
+    -   required atributas
+    -   minlength, maxlength atributai
+    -   min, max atributai
+    -   pattern atributas (regular expression, playground)
+-   Trumpa užduotis (Kontaktų forma - papildymas)
+-   Technologijų žemėlapis
+-   Bendri formos elementų atributai (šaltinis)
+    -   value (pradinė reikšmė)
+    -   name (pavadinimas siunčiant į serverį)
+    -   placeholder (tekstas iki vartotojo turinio įvedimo)
+    -   autofocus
+    -   readonly
+    -   disabled
+    -   form
+    -   size (panašu į textarea cols)
+    -   autocomplete
+-   Kiti input elemento tipai (text based)
+    -   email
+        -   papildoma validacija, įvesties (dažniau mobiliuosiuose) adaptavimas
+    -   number
+    -   min, max, step atributai
+        -   papildomi naršyklės valdikliai
+        -   papildoma validacija, įvesties (dažniau mobiliuosiuose) adaptavimas
+    -   tel
+        -   validacija, įvesties adaptavimas
+    -   password
+        -   įvedamo teksto paslėpimas
+        -   papildomos indikacijos HTTPS nenaudojantiems puslapiams
+    -   search
+        -   lauko išvalymo galimybė
+    -   url
+        -   papildomos įvesties galimybės, semantinė prasmė
+    -   hidden
+        -   paslepia informaciją nuo vartotojo akių (viską galima pamatyti per DevTools Inspect Element)
+        -   siunčia duomenis į serverį, kaip įprastas formos elementas
+-   Kiti input elemento tipai (skirti datoms ir laikui)
+    -   date
+    -   time
+    -   datetime-local
+    -   month
+    -   week
+-   Kiti input elemento tipai
+    -   checkbox (taip / ne įvedimas)
+
 Pagrindiniai šaltiniai
 
-Papildomi šaltiniai
+-   Formų pagrindai <https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form>
+-   Input types <https://www.w3schools.com/html/html_form_input_types.asp>, <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types>
+-   Using built-in form validation <https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#using_built-in_form_validation>
+-   Bendri atributai:
+    -   value <https://www.w3schools.com/tags/att_input_value.asp>
+    -   name <https://www.w3schools.com/tags/att_input_name.asp>
+    -   placeholder <https://www.w3schools.com/tags/att_input_placeholder.asp>
+    -   autofocus <https://www.w3schools.com/tags/att_input_autofocus.asp>, <https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/autofocus>
+    -   readonly <https://www.w3schools.com/tags/att_input_readonly.asp>, <https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/readonly>
+    -   disabled <https://www.w3schools.com/tags/att_disabled.asp>, <https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled>
+    -   form <https://www.w3schools.com/tags/att_form.asp>
+    -   size <https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/size>
+    -   autocomplete <https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete>
+-   Input types <https://www.w3schools.com/html/html_form_input_types.asp>, <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types>
 
 ## 3.4
 
