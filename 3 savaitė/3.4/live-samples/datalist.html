@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datalist</title>
+</head>
+
+<body>
+    <form action="./endpoint.html">
+        <input type="text" name="amzius" list="vienetai" />
+        <input type="range" name="kitas-laukas" list="vienetai" />
+
+        <datalist id="vienetai">
+            <option>25</option>
+            <option>50</option>
+            <option>100</option>
+            <option>200</option>
+        </datalist>
+
+        <datalist>
+            <option>25</option>
+            <option>50</option>
+            <option>100</option>
+            <option>200</option>
+        </datalist>
+        <button>Pateikti</button>
+    </form>
+</body>
+
+</html>

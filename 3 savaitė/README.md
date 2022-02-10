@@ -161,6 +161,53 @@ Pagrindiniai šaltiniai
 
 Temos
 
+-   Kiti input elemento tipai
+    -   radio
+    -   file
+        -   accept, multiple atributai
+-   Rečiau naudojami input elemento tipai
+    -   color
+    -   range
+-   Kiti formų elementai
+    -   select
+        -   option, optgroup elementai, multiple atributas
+    -   datalist
+-   Namų darbas (užduotis “apmokėjimas”)
+
+-   CSS kaskadiniai stiliai
+    -   Atsakomybės
+    -   Sintaksė
+    -   Kodėl kaskadiniai?
+    -   CSS savybės / CSS properties (sąrašas)
+    -   Komentarai
+-   Trys būdai pritaikyti CSS
+    -   Inline (style atributas)
+    -   style elementas
+    -   link elementas
+    -   Stiliaus prioritetas pagal šaltinį
+-   Pagrindiniai CSS selektoriai (CSS selectors)
+    -   element, \*, class, id, attribute selektoriai (visas sąrašas MDN, W3schools, arba čia)
+    -   Keletos selektorių naudojimas (elementas elemente, elementas su klase, tas pats stilius, keliems selektoriams).
+-   Spalvų naudojimas CSS
+    -   color, background-color CSS properties
+    -   pavadinimais
+    -   rbg / rgba
+    -   hex / hexa
+    -   hsl / hsla
+-   Namų darbas (elementų atkūrimas)
+
 Pagrindiniai šaltiniai
 
+-   Input types <https://www.w3schools.com/html/html_form_input_types.asp>, <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types>
+-   select elementas <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select>
+-   datalist elementas <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist>
+-   Namų darbas apmokėjimas <https://github.com/DeividasBakanas/frontend-basics-and-project-management-processes-2022-01-17/tree/main/3%20savait%C4%97/3.3/assigments/apmokejimo-forma>
+-   Kas yra CSS? <https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS>
+-   CSS prioritetas pagal šaltinį <https://web.dev/learn/css/the-cascade/#position-and-order-of-appearance>
+-   CSS selectoriai <https://web.dev/learn/css/selectors/#the-parts-of-a-css-rule>
+-   CSS spalvos <https://web.dev/learn/css/color/>
+-   Namų darbas elementų atkūrimas <https://github.com/DeividasBakanas/frontend-basics-and-project-management-processes-2022-01-17/tree/main/3%20savait%C4%97/3.4/assigments/elements-recreation>
+
 Papildomi šaltiniai
+
+-   CSS savybių sąrašas <https://developer.mozilla.org/en-US/docs/Web/CSS/Reference>

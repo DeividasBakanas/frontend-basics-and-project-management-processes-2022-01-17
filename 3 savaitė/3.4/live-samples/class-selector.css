@@ -1,0 +1,27 @@
+h2 {
+    color: brown;
+}
+
+.labai-idomu {
+    color: rgb(170, 170, 19);
+}
+
+.super-svarbu {
+    color: red;
+}
+
+#ketvirtas-h2 {
+    font-size: 50px;
+}
+
+.didelis-tekstas {
+    font-size: 100px;
+}
+
+.politiko-zodziai .netiesa {
+    text-decoration: line-through;
+}
+
+.super-svarbu.labai-idomu {
+    background-color: blueviolet;
+}
