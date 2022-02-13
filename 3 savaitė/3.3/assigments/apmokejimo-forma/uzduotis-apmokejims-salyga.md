@@ -1,4 +1,4 @@
-# Užuotis apmokėjimas
+# Užduotis apmokėjimas
 
 Pagal pateiktą aprašymą ir vizualinį pavyzdį suformuoti apmokėjimo formą.
 
