@@ -36,8 +36,6 @@ Pagrindiniai šaltiniai
 -   opacity property <https://developer.mozilla.org/en-US/docs/Web/CSS/opacity>
 -   outline property <https://developer.mozilla.org/en-US/docs/Web/CSS/outline>
 
-Papildomi šaltiniai
-
 ## 4.2
 
 Temos
