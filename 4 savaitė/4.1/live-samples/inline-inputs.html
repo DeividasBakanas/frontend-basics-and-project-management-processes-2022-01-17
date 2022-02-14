@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Du inline input'ai</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .parent-div {
+            width: 600px;
+        }
+
+        input {
+            width: 50%;
+        }
+
+        span {
+            display: inline-block;
+            width: 50%;
+        }
+
+        .span-a {
+            background-color: antiquewhite;
+        }
+
+        .span-b {
+            background-color: beige;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent-div">
+        <input /><input />
+    </div>
+    <div class="parent-div">
+        <!-- https://css-tricks.com/when-do-you-use-inline-block/#:~:text=There%20is%20another%20tricky%20thing,is%20any%20whitespace%20between%20them. -->
+        <!-- https://css-tricks.com/fighting-the-space-between-inline-block-elements/ -->
+        <span class="span-a">a</span><span class="span-b">b</span>
+    </div>
+</body>
+
+</html>
