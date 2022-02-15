@@ -40,9 +40,43 @@ Pagrindiniai šaltiniai
 
 Temos
 
+-   Trumpa užduotis - Box Model
+-   Matavimo vienetai CSS
+    -   Absoliutūs matavimo vienetai
+        -   cm, mm, in
+        -   px, pt, pc
+    -   Reliatyvūs matavimo vienetai
+        -   em, rem
+        -   ex, ch,
+        -   vw, vh, vmin, vmax
+        -   %
+-   CSS ir tekstas
+    -   Šrifto parametrai
+        -   šrifto nustatymas (font-family)
+        -   web safe fonts
+        -   dydžio parinkimas (font-size)
+        -   stilius (font-style)
+        -   storis (font-weight)
+    -   Teksto pozicionavimo parametrai
+        -   lygiavimas (text-align)
+        -   eilutės aukštis (line-height)
+
 Pagrindiniai šaltiniai
 
+-   Trumpa užduotis - Box Model <https://github.com/DeividasBakanas/frontend-basics-and-project-management-processes-2022-01-17/tree/main/4%20savait%C4%97/4.2/assigments/box-model>
+-   CSS vienetai <https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#lengths>, <https://www.w3schools.com/cssref/css_units.asp>
+    -   Absoliutūs <https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#absolute_length_units>
+    -   Realityvus <https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#relative_length_units>
+-   font-family <https://developer.mozilla.org/en-US/docs/Web/CSS/font-family>
+-   font-size <https://developer.mozilla.org/en-US/docs/Web/CSS/font-size>
+-   font-style <https://developer.mozilla.org/en-US/docs/Web/CSS/font-style>, <https://www.w3schools.com/cssref/pr_font_font-style.asp>
+-   font-weight <https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight>, <https://www.w3schools.com/cssref/pr_font_weight.asp>
+-   text-align <https://developer.mozilla.org/en-US/docs/Web/CSS/text-align>
+-   line-height <https://developer.mozilla.org/en-US/docs/Web/CSS/line-height>, <https://www.w3schools.com/cssref/pr_dim_line-height.asp>
+
 Papildomi šaltiniai
+
+-   Web safe fonts <https://www.cssfontstack.com/>, <https://blog.hubspot.com/website/web-safe-html-css-fonts>
 
 ## 4.3
 
