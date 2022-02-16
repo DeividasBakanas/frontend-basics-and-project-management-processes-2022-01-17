@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text decoration</title>
+    <style>
+        .linija-po {
+            text-decoration: underline;
+        }
+
+        .linija-virs {
+            text-decoration: overline;
+        }
+
+        .linija-per {
+            text-decoration: line-through;
+        }
+
+        .keletas-dekoraciju {
+            text-decoration: underline overline line-through;
+        }
+
+        .vientisa {
+            text-decoration: underline;
+            text-decoration-style: solid;
+        }
+
+        .dviguba {
+            text-decoration: underline;
+            text-decoration-style: double;
+        }
+
+        .taskuciai {
+            text-decoration: underline;
+            text-decoration-style: dotted;
+        }
+
+        .punktyras {
+            text-decoration: underline;
+            text-decoration-style: dashed;
+        }
+
+        .bangeles {
+            text-decoration: underline;
+            text-decoration-style: wavy;
+        }
+
+        .spalva-ir-storis {
+            text-decoration: underline;
+            text-decoration-style: wavy;
+            text-decoration-color: brown;
+            text-decoration-thickness: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        <span class="linija-po">Lorem ipsum dolor</span>
+        <span class="linija-virs">sit amet consectetur</span>
+        <span class="linija-per">adipisicing elit.</span>
+    </p>
+
+    <p class="keletas-dekoraciju">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
+    <p>
+        <span class="vientisa">Lorem ipsum dolor</span>
+        <span class="dviguba">sit amet consectetur</span>
+        <span class="taskuciai">adipisicing elit.</span>
+    </p>
+    <p>
+        <span class="punktyras">Lorem ipsum dolor</span>
+        <span class="bangeles">sit amet consectetur</span>
+    </p>
+
+    <p class="spalva-ir-storis">Lorem ipsum dolor...</p>
+</body>
+
+</html>

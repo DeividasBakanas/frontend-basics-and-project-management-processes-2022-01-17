@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .layout-container {
+            max-width: 370px;
+        }
+
+        .parent {
+            background-color: cornsilk;
+            display: flex;
+        }
+
+        .box {
+            padding: 15px;
+        }
+
+        .box div {
+            width: 50px;
+            height: 50px;
+            background-color: azure;
+            border: 1px solid black;
+        }
+
+        .spacer {
+            height: 20px;
+        }
+
+        .row-direction {
+            flex-direction: row;
+        }
+
+        .row-reverse-direction {
+            flex-direction: row-reverse;
+        }
+
+        .column-direction {
+            flex-direction: column;
+        }
+
+        .column-reverse-direction {
+            flex-direction: column-reverse;
+        }
+
+        .wrap {
+            flex-wrap: wrap;
+        }
+
+        .wrap-reverse {
+            flex-wrap: wrap-reverse;
+        }
+
+        .height-250 {
+            height: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="layout-container">
+        <div class="parent row-direction">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="parent row-reverse-direction">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="parent column-direction">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="parent column-reverse-direction">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="parent row-direction">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+            <div class="box">
+                <div>4</div>
+            </div>
+            <div class="box">
+                <div>5</div>
+            </div>
+            <div class="box">
+                <div>6</div>
+            </div>
+            <div class="box">
+                <div>7</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="parent row-direction wrap">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+            <div class="box">
+                <div>4</div>
+            </div>
+            <div class="box">
+                <div>5</div>
+            </div>
+            <div class="box">
+                <div>6</div>
+            </div>
+            <div class="box">
+                <div>7</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="parent row-direction wrap-reverse">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+            <div class="box">
+                <div>4</div>
+            </div>
+            <div class="box">
+                <div>5</div>
+            </div>
+            <div class="box">
+                <div>6</div>
+            </div>
+            <div class="box">
+                <div>7</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="parent column-direction wrap height-250">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+            <div class="box">
+                <div>4</div>
+            </div>
+            <div class="box">
+                <div>5</div>
+            </div>
+            <div class="box">
+                <div>6</div>
+            </div>
+            <div class="box">
+                <div>7</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="parent column-direction wrap-reverse height-250">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+            <div class="box">
+                <div>4</div>
+            </div>
+            <div class="box">
+                <div>5</div>
+            </div>
+            <div class="box">
+                <div>6</div>
+            </div>
+            <div class="box">
+                <div>7</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

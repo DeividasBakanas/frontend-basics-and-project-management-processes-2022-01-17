@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>line-height</title>
+    <style>
+        p {
+            text-decoration: underline overline;
+        }
+
+        .ipsum {
+            font-size: 33px;
+            line-height: 2;
+        }
+
+        .super {
+            vertical-align: super;
+        }
+
+        .subscript {
+            vertical-align: sub;
+        }
+
+        .middle {
+            vertical-align: middle;
+        }
+
+        .bottom {
+            vertical-align: bottom;
+        }
+
+        .top {
+            vertical-align: top;
+        }
+
+        .aukstyn {
+            vertical-align: 50px;
+        }
+
+        .zemyn {
+            vertical-align: -50px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        <!-- Initial value - baseline. -->
+        <span class="ipsum">Lorem</span><span>TM</span> elit.
+    </p>
+    <p>
+        <span class="ipsum">Lorem</span><span class="super">TM</span> elit.
+    </p>
+    <p>
+        <span class="ipsum">Lorem</span><span class="subscript">TM</span> elit.
+    </p>
+    <p>
+        <span class="ipsum">Lorem</span><span class="middle">TM</span> elit.
+    </p>
+    <p>
+        <span class="ipsum">Lorem</span><span class="top">TM</span> elit.
+    </p>
+    <p>
+        <span class="ipsum">Lorem</span><span class="bottom">TM</span> elit.
+    </p>
+    <p>
+        <span class="ipsum">Lorem</span><span class="aukstyn">TM</span> elit.
+    </p>
+    <p>
+        <span class="ipsum">Lorem</span><span class="zemyn">TM</span> elit.
+    </p>
+</body>
+
+</html>

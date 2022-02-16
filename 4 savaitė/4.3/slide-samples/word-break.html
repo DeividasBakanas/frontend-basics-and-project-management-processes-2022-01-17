@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>word-break</title>
+    <style>
+        p {
+            width: 290px;
+            border: 1px solid black;
+        }
+
+        .normal {
+            /* Numatytoji reikšmė */
+            word-break: normal;
+        }
+
+        .lauziam-kur-yra {
+            word-break: break-all;
+        }
+
+        .cjk-simboliai-eiluteje {
+            word-break: keep-all;
+        }
+
+        .lauziam-kur-butina {
+            word-break: break-word;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="normal">
+        Honorificabilitudinitatibus califragilisticexpialidocious
+        Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu
+        次の単語グレートブリテンおよび北アイルランド連合王国で本当に大きな言葉
+    </p>
+    <p class="lauziam-kur-yra">
+        Honorificabilitudinitatibus califragilisticexpialidocious
+        Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu
+        次の単語グレートブリテンおよび北アイルランド連合王国で本当に大きな言葉
+    </p>
+    <p class="cjk-simboliai-eiluteje">
+        Honorificabilitudinitatibus califragilisticexpialidocious
+        Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu
+        次の単語グレートブリテンおよび北アイルランド連合王国で本当に大きな言葉
+    </p>
+    <p class="lauziam-kur-butina">
+        Honorificabilitudinitatibus califragilisticexpialidocious
+        Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu
+        次の単語グレートブリテンおよび北アイルランド連合王国で本当に大きな言葉
+    </p>
+</body>
+
+</html>

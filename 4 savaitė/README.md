@@ -82,9 +82,69 @@ Papildomi šaltiniai
 
 Temos
 
+-   CSS ir tekstas
+    -   Teksto pozicionavimo parametrai
+        -   teksto pozicija eilutėje (vertical-align)
+        -   rašymo kryptis (writing-mode)
+    -   Teksto dekoravimas
+        -   text-decoration
+        -   text-transform
+        -   text-shadow
+    -   Raidžių ir žodžių erdvės parametrai
+        -   letter-spacing
+        -   word-spacing
+-   Tuščios erdvės valdymas (white-space)
+-   Netelpantis turinys (overflow)
+-   CSS ir tekstai
+    -   Netelpantis tekstas
+        -   word-break
+        -   text-overflow (ellipsis)
+-   @ taisyklės (at-rules)
+-   Specifinių šriftų naudojimas (@font-face)
+-   Šriftų formatai
+-   Kur rasti nemokamų šriftų?
+    -   Nemokamos šriftų platformos <https://www.fontsquirrel.com/>
+    -   Online šriftų servisas <https://fonts.google.com/>
+-   Alternatyvus šriftų įkėlimas
+    -   @import
+    -   HTML link - prepared stylesheet
+-   Ikonėlės - icon fonts vs. SVG icons
+-   CSS flexbox
+-   Namų darbas - flex-froggy <https://flexboxfroggy.com/#lt>.
+
 Pagrindiniai šaltiniai
 
+-   Teksto stilių bazė <https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals>
+-   vertical-align <https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align>
+-   writing-mode <https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode>
+-   text-decoration <https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration>
+    -   text-decoration-line <https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-line>
+    -   text-decoration-style <https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style>
+    -   text-decoration-color <https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-color>
+    -   text-decoration-thickness <https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-thickness>
+-   text-transform <https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform>
+-   text-shadow <https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow>, <https://www.w3schools.com/cssref/css3_pr_text-shadow.asp>
+-   letter-spacing <https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing>
+-   word-spacing <https://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing>
+-   white-space <https://developer.mozilla.org/en-US/docs/Web/CSS/white-space>
+-   overflow <https://developer.mozilla.org/en-US/docs/Web/CSS/overflow>
+-   word-break <https://developer.mozilla.org/en-US/docs/Web/CSS/word-break>
+-   text-overflow <https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow>
+-   At-rules <https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule>
+-   @font-face <https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face>, <https://css-tricks.com/snippets/css/using-font-face/>
+-   Font'ų formatai <https://medium.com/@aitareydesign/understanding-of-font-formats-ttf-otf-woff-eot-svg-e55e00a1ef2>, <https://medium.com/geekculture/one-font-format-to-rule-them-all-woff2-d053e2e5165a>, <https://stackoverflow.com/questions/11002820/why-should-we-include-ttf-eot-woff-svg-in-a-font-face>, <https://design.tutsplus.com/articles/different-font-file-types-explained-ott-ttf-woff--cms-39047>, <https://developer.mozilla.org/en-US/docs/Web/Guide/WOFF>
+-   Alternatyvus šriftų įkėlimas - @import CSS rule <https://www.w3schools.com/cssref/pr_import_rule.asp>, <https://developer.mozilla.org/en-US/docs/Web/CSS/@import>.
+-   Google Fonts <https://fonts.google.com/>
+-   Flexbox pilnas gidas <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
+
 Papildomi šaltiniai
+
+-   Making an ellipsis <https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/>
+-   Už Icon fonts <https://css-tricks.com/examples/IconFont/>
+-   Prieš Icon fonts <https://css-tricks.com/icon-fonts-vs-svg/>
+-   Icon fonts <https://www.pluralsight.com/blog/creative-professional/icon-fonts>, <https://css-tricks.com/icon-fonts-vs-svg/>
+-   Font Awesome <https://fontawesome.com/>
+-   Fontello <https://fontello.com/>
 
 ## 4.4
 

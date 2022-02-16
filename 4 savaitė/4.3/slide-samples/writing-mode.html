@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing mode</title>
+    <style>
+        .vertical-left-to-right {
+            writing-mode: vertical-lr;
+        }
+
+        .vertical-right-to-left {
+            writing-mode: vertical-rl;
+        }
+    </style>
+</head>
+
+<body>
+    /* Default: horizontal-tb (horizontal from top to bottom) */
+    <p>Įprastas tekstas</p>
+    <hr>
+    <p class="vertical-left-to-right">Vertikalus kita eilutė<br>iš kairės į dešinę</p>
+    <hr>
+    <p class="vertical-right-to-left">Vertikalus kita eilutė<br>iš dešinės į kairę</p>
+</body>
+
+</html>
