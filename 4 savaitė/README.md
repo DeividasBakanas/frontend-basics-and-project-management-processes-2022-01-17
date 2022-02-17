@@ -150,6 +150,18 @@ Papildomi šaltiniai
 
 Temos
 
+-   CSS flexbox
+-   CSS Reset failas
+-   Holy grail layout naudojant flexbox
+-   Namų darbas - klaidos puslapis.
+
 Pagrindiniai šaltiniai
 
+-   Flexbox pilnas gidas <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
+-   CSS Reset <https://meyerweb.com/eric/tools/css/reset/>
+-   Holy grail layout pavyzdys [neužbaigas](./4.4/live-samples/form-layout/)
+-   Namų darbo Klaidos puslapis [sąlyga](./4.4/assigments/error-page/uzduotis-klaidos-puslapis.md)
+
 Papildomi šaltiniai
+
+-   Layout'o pavyzdžio šaltinis <https://cubicleninjas.com/ultimate-guide-to-contact-forms/>

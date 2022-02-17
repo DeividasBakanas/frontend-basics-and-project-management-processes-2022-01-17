@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .layout-container {
+            max-width: 370px;
+        }
+
+        .parent {
+            background-color: cornsilk;
+            display: flex;
+        }
+
+        .box {
+            padding: 15px;
+        }
+
+        .box div {
+            width: 50px;
+            height: 50px;
+            background-color: azure;
+            border: 1px solid black;
+        }
+
+        .spacer {
+            height: 20px;
+        }
+
+        .row-direction {
+            flex-direction: row;
+        }
+
+        .row-reverse-direction {
+            flex-direction: row-reverse;
+        }
+
+        .column-direction {
+            flex-direction: column;
+        }
+
+        .column-reverse-direction {
+            flex-direction: column-reverse;
+        }
+
+        .wrap {
+            flex-wrap: wrap;
+        }
+
+        .wrap-reverse {
+            flex-wrap: wrap-reverse;
+        }
+
+        .height-250 {
+            height: 250px;
+        }
+
+        .justify-end {
+            justify-content: flex-end;
+        }
+
+        .justify-center {
+            justify-content: center;
+        }
+
+        .justify-space-between {
+            justify-content: center;
+        }
+
+        .justify-space-around {
+            justify-content: center;
+        }
+
+        .justify-space-evently {
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="layout-container">
+        <h1>CSS flexbox</h1>
+        <h2>flex-direction: row;</h2>
+        <div class="parent row-direction">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <h2>flex-direction: row-reverse;</h2>
+        <div class="parent row-reverse-direction">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <h2>flex-direction: column;</h2>
+        <div class="parent column-direction">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <h2>flex-direction: column-reverse;</h2>
+        <div class="parent column-reverse-direction">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <h2>flex-direction: row;<br>flex-wrap: nowrap;</h2>
+        <div class="parent row-direction">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+            <div class="box">
+                <div>4</div>
+            </div>
+            <div class="box">
+                <div>5</div>
+            </div>
+            <div class="box">
+                <div>6</div>
+            </div>
+            <div class="box">
+                <div>7</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <h2>flex-direction: row;<br>flex-wrap: wrap;</h2>
+        <div class="parent row-direction wrap">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+            <div class="box">
+                <div>4</div>
+            </div>
+            <div class="box">
+                <div>5</div>
+            </div>
+            <div class="box">
+                <div>6</div>
+            </div>
+            <div class="box">
+                <div>7</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <h2>flex-direction: row;<br>flex-wrap: wrap-reverse;</h2>
+        <div class="parent row-direction wrap-reverse">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+            <div class="box">
+                <div>4</div>
+            </div>
+            <div class="box">
+                <div>5</div>
+            </div>
+            <div class="box">
+                <div>6</div>
+            </div>
+            <div class="box">
+                <div>7</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <h2>flex-direction: column;<br>flex-wrap: wrap;</h2>
+        <div class="parent column-direction wrap height-250">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+            <div class="box">
+                <div>4</div>
+            </div>
+            <div class="box">
+                <div>5</div>
+            </div>
+            <div class="box">
+                <div>6</div>
+            </div>
+            <div class="box">
+                <div>7</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <h2>flex-direction: column;<br>flex-wrap: wrap-reverse;</h2>
+        <div class="parent column-direction wrap-reverse height-250">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+            <div class="box">
+                <div>4</div>
+            </div>
+            <div class="box">
+                <div>5</div>
+            </div>
+            <div class="box">
+                <div>6</div>
+            </div>
+            <div class="box">
+                <div>7</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <h2>flex-direction: row;<br>justify-content: flex-start; (default)</h2>
+        <div class="parent row-direction">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <h2>flex-direction: row;<br>justify-content: flex-end;</h2>
+        <div class="parent row-direction justify-end">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <h2>flex-direction: row;<br>justify-content: center;</h2>
+        <div class="parent row-direction">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <h2>flex-direction: row;<br>justify-content: flex-start;</h2>
+        <div class="parent row-direction">
+            <div class="box">
+                <div>1</div>
+            </div>
+            <div class="box">
+                <div>2</div>
+            </div>
+            <div class="box">
+                <div>3</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
