@@ -11,49 +11,59 @@
 </head>
 
 <body>
-    <header>
+    <header class="page-header">
         <nav>
-            <a>Home</a>
-            <a>Blog</a>
-            <a>About</a>
-            <a class="active">Contact</a>
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">About</a>
+            <a class="active" href="#">Contact</a>
         </nav>
     </header>
     <main>
         <section class="user-contacts">
-            <h2>Just say Hello !</h2>
-            <span>Let us know about you !</span>
+            <header>
+                <h2>Just say Hello !</h2>
+                <span>Let us know about you !</span>
+            </header>
             <form>
-                <input name="name" placeholder="First Name" />
-                <input name="last-name" placeholder="Last Name" />
-                <input type="email" name="email" placeholder="Mail">
-                <input type="tel" name="phone" placeholder="Phone">
+                <span class="row">
+                    <input name="name" placeholder="First name" />
+                    <input name="last-name" placeholder="Last name" />
+                </span>
+                <span class="row">
+                    <input type="email" name="email" placeholder="Mail">
+                    <input type="tel" name="phone" placeholder="Phone">
+                </span>
                 <textarea name="message" placeholder="Message"></textarea>
                 <button>Submit</button>
             </form>
         </section>
         <section class="company-contacts">
-            <section>
-                <h2>Contact Information</h2>
-                <address>
-                    77 Baker Street<br>
-                    Bondowoso. 87655<br>
-                    Indonesia
-                </address>
-                <p>
-                    Call Us : <a href="tel:+62813346100">+62 81 334 61 00</a>
-                </p>
-                <p>
-                    We are open from <time>Monday - Friday</time><br>
-                    <time>08.00 am - 05.00 pm</time>
-                </p>
-            </section>
-            <section>
-                <h2>Follow Us</h2>
-                <a>facebook</a>
-                <a>instagram</a>
-                <a>vimeo</a>
-            </section>
+            <article class="company-contacts-container">
+                <section>
+                    <h2>Contact Information</h2>
+                    <address>
+                        77 Baker Street<br>
+                        Bondowoso. 87655<br>
+                        Indonesia
+                    </address>
+                    <p>
+                        Call Us : <a href="tel:+62813346100">+62 81 334 61 00</a>
+                    </p>
+                    <p>
+                        We are open from <time>Monday - Friday</time><br>
+                        <time>08.00 am - 05.00 pm</time>
+                    </p>
+                </section>
+                <section class="follow-us">
+                    <h2>Follow Us</h2>
+                    <span>
+                        <a href="#">facebook</a>
+                        <a href="#">instagram</a>
+                        <a href="#">vimeo</a>
+                    </span>
+                </section>
+            </article>
         </section>
     </main>
 </body>

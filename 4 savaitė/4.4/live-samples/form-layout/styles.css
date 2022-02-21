@@ -1,7 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: sans-serif;
     background-color: #2f3765;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+input,
+textarea {
+    background-color: #4f5c88;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    font-family: sans-serif;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: white;
+    text-transform: capitalize;
+}
+
+textarea {
+    height: 115px;
+    resize: none;
+}
+
+button {
+    background-color: #f569ac;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px 26px;
+    border: none;
+    border-radius: 12px;
+}
+
+.page-header,
+main {
+    max-width: 1200px;
+    width: 100%;
 }
 
 nav {
@@ -19,11 +67,15 @@ nav {
 
 main {
     display: flex;
+    gap: 50px;
+    padding: 50px 30px 0 30px;
 }
 
 form {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    padding-top: 25px
 }
 
 .form-row {
@@ -37,5 +89,60 @@ form {
 
 .user-contacts,
 .company-contacts {
-    flex: 1 0 auto;
+    flex: 1 1 50%;
+}
+
+h2 {
+    font-weight: 700;
+    color: #f569ac;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.company-contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.company-contacts-container {
+    max-width: 250px;
+    line-height: 1.2;
+}
+
+address {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+p {
+    padding-bottom: 20px;
+}
+
+.follow-us {
+    padding-top: 30px;
+}
+
+.follow-us a {
+    font-weight: 700;
+}
+
+.follow-us span {
+    word-spacing: 20px;
+}
+
+form .row {
+    display: flex;
+    gap: 10px;
+}
+
+form .row input {
+    flex: 1 1 auto;
+}
+
+form button {
+    align-self: flex-start;
+}
+
+.user-contacts header {
+    padding-left: 10px;
 }
