@@ -15,9 +15,42 @@ Pagrindiniai šaltiniai
 
 Temos
 
+-   Media Queries
+-   Responsiveness pavyzdys - (pastarasis holy grail layout)
+-   Užduotis “Responsiveness flag”
+-   CSS paveldimumas
+    -   unset, initial, inherit, revert reikšmės
+    -   CSS origin
+    -   all CSS property
+-   Sudėtingesni kombinatoriai
+    -   Direct child
+    -   Plus
+    -   Tilde
+-   Sudėtingesni attribute selektoriai
+-   Pseudo klasės
+    -   Vietos / nuorodų
+        -   link
+        -   visited
+        -   any-link
+    -   Vartotojo veiksmo
+        -   hover
+        -   active
+        -   focus
+-   Pseudo klasės simuliavimas DevTools
+
 Pagrindiniai šaltiniai
 
-Papildomi šaltiniai
+-   Media Queries <https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries>, <https://www.w3schools.com/css/css_rwd_mediaqueries.asp>, <https://www.w3schools.com/cssref/css3_pr_mediaquery.asp>, <https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries>, <https://developer.mozilla.org/en-US/docs/Web/CSS/@media>
+-   Mobile / Desktop first <https://fredericgonzalo.com/en/2017/03/01/understanding-the-difference-between-mobile-first-adaptive-and-responsive-design/>
+-   Mobile / Desktop first realiame gyvenime <https://ishadeed.com/article/the-state-of-mobile-first-and-desktop-first/>
+-   Inheritance <https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance>
+-   inherit CSS value <https://developer.mozilla.org/en-US/docs/Web/CSS/inherit>
+-   initial CSS value <https://developer.mozilla.org/en-US/docs/Web/CSS/initial>
+-   unset CSS value <https://developer.mozilla.org/en-US/docs/Web/CSS/unset>
+-   revert CSS value <https://www.youtube.com/watch?v=GAjoVRmipcU&ab_channel=MozillaDeveloper>, <https://developer.mozilla.org/en-US/docs/Web/CSS/revert>
+-   all CSS property <https://developer.mozilla.org/en-US/docs/Web/CSS/all>
+-   Sudėtingesni attribute selektoriai <https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors>
+-   Pseudo-klasės <https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes>
 
 ## 5.3
 

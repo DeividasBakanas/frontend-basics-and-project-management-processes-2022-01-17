@@ -26,6 +26,10 @@ textarea {
     font-family: sans-serif;
 }
 
+:focus-visible {
+    outline: #f569ac solid 2px;
+}
+
 input::placeholder,
 textarea::placeholder {
     color: white;
@@ -44,6 +48,10 @@ button {
     padding: 12px 26px;
     border: none;
     border-radius: 12px;
+}
+
+button:focus-visible {
+    outline-color: #4f5c88;
 }
 
 .page-header,
@@ -75,7 +83,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-top: 25px
+    padding-top: 25px;
 }
 
 .form-row {
@@ -119,7 +127,7 @@ p {
 }
 
 .follow-us {
-    padding-top: 30px;
+    padding: 30px 0;
 }
 
 .follow-us a {
@@ -145,4 +153,26 @@ form button {
 
 .user-contacts header {
     padding-left: 10px;
+}
+
+@media (max-width: 798px) {
+    main {
+        flex-direction: column;
+    }
+
+    .company-contacts-container {
+        max-width: none;
+    }
+}
+
+@media (max-width: 460px) {
+    form .row {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
 }

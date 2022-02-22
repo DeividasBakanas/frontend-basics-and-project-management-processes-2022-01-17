@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        @media (max-width: 1200px) {
+            p {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 920px) {
+            p {
+                font-size: 3rem;
+            }
+        }
+
+        @media (min-width: 600px) and (max-width: 800px) {
+            p {
+                text-decoration: underline;
+            }
+        }
+
+        /*                      |----------------- */
+
+        @media (min-width: 768px) {
+            p {
+                font-weight: 700;
+            }
+        }
+
+        /* -----------------|*/
+        /* @media (max-width: 768px) {
+            p {
+                font-weight: 400;
+            }
+        } */
+
+        /* -------------------------|  |----------------- */
+
+
+        /*---------------------------| */
+        @media not all and (min-width: 768px) {
+            p {
+                font-weight: 400;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse repellendus tempora nulla aliquam dolore ipsum
+        voluptas labore provident, suscipit assumenda sequi corporis commodi incidunt doloribus odit delectus fugit
+        rerum voluptatum?
+    </p>
+</body>
+
+</html>
