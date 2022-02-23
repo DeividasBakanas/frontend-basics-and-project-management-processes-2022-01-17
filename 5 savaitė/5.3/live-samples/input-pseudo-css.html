@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input pseudo CSS</title>
+    <style>
+        form:focus-within {
+            background-color: beige;
+        }
+
+        /* Neveikia!!! Patikrinti. */
+        input[name="q"]:-webkit-autofill {
+            background-color: red;
+        }
+
+        input:enabled {
+            background-color: lightgreen;
+        }
+
+        input:disabled {
+            background-color: lightcoral;
+        }
+
+        input:required {
+            border: 3px solid rebeccapurple;
+        }
+
+        input:valid {
+            border: 3px solid greenyellow;
+        }
+
+        input:invalid {
+            border: 3px solid red;
+        }
+
+        input[type="checkbox"] {
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border: 1px solid black;
+        }
+
+        input:checked {
+            background-color: red;
+        }
+
+        form :first-child {
+            outline: brown solid 5px;
+        }
+
+        form :last-child {
+            outline: yellow solid 5px;
+        }
+        
+        form input:nth-child(3) {
+            outline: blue solid 5px;
+        }
+
+        /* form input:nth-child(odd) { */
+        form input:nth-child(2n) {
+            outline: bisque solid 5px;
+        }
+
+        /* form input:nth-child(even) { */
+        form input:nth-child(2n+1) {
+            outline: gold solid 5px;
+        }
+
+        form input:last-of-type {
+            outline: blue solid 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="https://google.com" method="get">
+        <input required name="q" placeholder="Privalomas laukas" />
+        <input disabled />
+        <input />
+        <input type="number" min="5" max="10" placeholder="Skaičius nuo 5 iki 10" />
+        <input />
+        <input type="checkbox" />
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

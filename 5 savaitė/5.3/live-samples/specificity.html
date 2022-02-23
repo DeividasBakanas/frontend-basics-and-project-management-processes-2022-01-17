@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specifiškumas</title>
+    <style>
+        /* 0 0 0 1 = 1 */
+        button {
+            color: red;
+        }
+
+        /* 0 0 0 1 = 1 */
+        button {
+            color: green;
+        }
+
+        /* 0 0 0 2 = 2 */
+        input::placeholder {
+            color: purple;
+        }
+
+        /* 0 0 0 1 = 1 */
+        ::placeholder {
+            color: blue;
+        }
+
+        /* 0 0 1 0 = 10 */
+        .sample-class {
+            color: red;
+        }
+
+        /* 0 0 1 0 = 10 */
+        :valid {
+            color: black;
+        }
+
+        /* 0 0 2 0 = 20 */
+        .some-input:valid {
+            color: red;
+        }
+
+        /* 0 0 1 1 = 11 */
+        input:valid {
+            color: brown;
+        }
+
+        /* 0 0 2 1 = 21 */
+        a[href][target] {
+            color: green;
+        }
+
+        /* 0 1 0 0 = 100 */
+        #some-identificator {
+            color: blue;
+        }
+
+        /* 0 1 0 1 = 101 */
+        a#some-identificator {
+            color: green;
+        }
+
+        /* 0 1 1 1 = 111 */
+        a#some-identificator:visited {
+            color: green;
+        }
+
+        /* 0 1 0 0 = 100 */
+        #my-input {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- color: green; -->
+    <button>Testas</button>
+    <!-- color: purple; -->
+    <input placeholder="Testinis tekstas">
+    <!-- color: blue; -->
+    <textarea placeholder="Testinis tekstas"></textarea>
+
+    <!-- background-color: red specifiškumas 1 0 0 0 = 1000 -->
+    <input id="my-input" style="background-color: red;" />
+</body>
+
+</html>

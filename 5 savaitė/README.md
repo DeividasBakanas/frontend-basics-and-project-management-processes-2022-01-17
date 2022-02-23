@@ -56,9 +56,49 @@ Pagrindiniai šaltiniai
 
 Temos
 
+-   Pseudo klasės
+    -   Vartotojo veiksmo
+        -   focus
+        -   focus-visible
+        -   focus-within
+    -   Input elementų
+        -   autofill
+        -   enabled
+        -   disabled
+        -   valid
+        -   invalid
+        -   checked
+        -   required
+    -   Pagal dokumento struktūrą
+        -   root
+        -   empty
+        -   nth-child
+        -   first-child
+        -   last-child
+        -   only-child
+        -   first-of-type
+        -   last-of-type
+        -   only-of-type
+-   Pseudo klasės simuliavimas DevTools
+-   Pseudo elementai
+    -   before
+    -   after
+    -   first-letter
+    -   first-line
+    -   file-selector-button
+    -   marker
+    -   placeholder
+    -   selection
+-   Trumpa užduotis - formos būsenos [sąlyga](./5.3/assigments/payment-form-pseudo-css/uzduotis-apmokejimas-pseudo-css.md)
+-   CSS specifiškumas
+-   Apskaičiavimas
+-   !important
+
 Pagrindiniai šaltiniai
 
-Papildomi šaltiniai
+-   Pseudo-klasės <https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes>
+-   Pseudi-elementai <https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements>
+-   Specifiškumas <https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity>, <https://www.w3schools.com/css/css_specificity.asp>, <https://css-tricks.com/specifics-on-css-specificity/>
 
 ## 5.4
 

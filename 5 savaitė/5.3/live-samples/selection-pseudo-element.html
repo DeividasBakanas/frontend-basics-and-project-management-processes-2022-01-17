@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selection pseudo elementas</title>
+    <style>
+        ::selection {
+            background-color: bisque;
+            color: brown
+        }
+
+        body::before {
+            content: 'What\'na?';
+            display: block;
+            height: 10px;
+            width: 20px;
+            background-color: aquamarine;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor in excepturi unde reiciendis quasi, praesentium,
+    illum ducimus dolore rem perferendis molestias cum a laboriosam quae provident optio repudiandae, quod
+    necessitatibus.
+</body>
+
+</html>

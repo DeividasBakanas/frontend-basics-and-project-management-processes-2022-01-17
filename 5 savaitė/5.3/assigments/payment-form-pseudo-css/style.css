@@ -1,0 +1,33 @@
+input:hover,
+select:hover {
+    outline: brown solid 3px;
+}
+
+input:required, select:required {
+    background-color: lightyellow;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: greenyellow;
+}
+
+input:focus, select:focus, button:focus {
+    outline: blue solid 3px;
+}
+
+input::placeholder {
+    color: rgb(104, 104, 104, 0.61);
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 2rem;
+}
+
+p:nth-child(2n) {
+    background-color: ghostwhite;
+}
