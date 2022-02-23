@@ -91,8 +91,8 @@ Temos
     -   selection
 -   Trumpa užduotis - formos būsenos [sąlyga](./5.3/assigments/payment-form-pseudo-css/uzduotis-apmokejimas-pseudo-css.md)
 -   CSS specifiškumas
--   Apskaičiavimas
--   !important
+    -   Apskaičiavimas
+    -   !important
 
 Pagrindiniai šaltiniai
 
