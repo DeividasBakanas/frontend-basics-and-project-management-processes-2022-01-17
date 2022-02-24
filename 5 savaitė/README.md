@@ -104,6 +104,34 @@ Pagrindiniai šaltiniai
 
 Temos
 
+-   CSS specifiškumas
+    -   Apskaičiavimas
+    -   !important
+-   Fono paveikslėlis ir kompanija (background-image)
+    -   background-image
+    -   background-position
+    -   background-repeat
+    -   background-size
+-   cursor property
+-   Position CSS property
+    -   fixed
+    -   sticky
+        -   meniu
+    -   relative
+    -   absolute
+        -   burgerio meniu
+-   Namų darbas - supozicionuotas meniu [sąlyga](./5.4/assigments/positioned-menu-html/positioned-menu.md)
+    -   :not() pseudo klasė
+    -   tabindex HTML atributas
+
 Pagrindiniai šaltiniai
 
-Papildomi šaltiniai
+-   Specifiškumas <https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity>, <https://www.w3schools.com/css/css_specificity.asp>, <https://css-tricks.com/specifics-on-css-specificity/>
+-   background-image <https://developer.mozilla.org/en-US/docs/Web/CSS/background-image>, <https://www.w3schools.com/cssref/pr_background-image.asp>
+-   background-position <https://developer.mozilla.org/en-US/docs/Web/CSS/background-position>
+-   background-repeat <https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat>
+-   background-size <https://developer.mozilla.org/en-US/docs/Web/CSS/background-size>
+-   cursor <https://developer.mozilla.org/en-US/docs/Web/CSS/cursor>
+-   position <https://developer.mozilla.org/en-US/docs/Web/CSS/position>, <https://www.w3schools.com/cssref/pr_class_position.asp>
+-   tabindex <https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex>
+-   not pseudo klasė <https://developer.mozilla.org/en-US/docs/Web/CSS/:not>

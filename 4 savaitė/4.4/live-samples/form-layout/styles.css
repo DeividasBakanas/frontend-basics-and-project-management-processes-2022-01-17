@@ -166,13 +166,47 @@ form button {
 }
 
 @media (max-width: 460px) {
+    header {
+        position: relative;
+    }
+
     form .row {
         flex-direction: column;
         padding-bottom: 20px;
     }
 
+    .mobile-header {
+        height: 50px;
+        background-color: #4f5c88;
+        border-bottom: 1px solid #f569ac;
+    }
+
+    .mobile-header:focus ~ nav {
+        display: flex;
+    }
+
+    .burger-button {
+        height: 100%;
+        width: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 10px;
+    }
+
+    .burger-line {
+        height: 6px;
+        background-color: #f569ac;
+    }
+
     nav {
+        display: none;
         flex-direction: column;
         align-items: center;
+        background-color: #4f5c88;
+        border-bottom: 1px solid #f569ac;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
     }
 }

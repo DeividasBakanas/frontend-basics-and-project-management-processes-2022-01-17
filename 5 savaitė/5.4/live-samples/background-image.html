@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background-image</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        main {
+            background-image: url('./apples-640.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width: 100%;
+        }
+
+        .backdrop {
+            height: 100%;
+            width: 100%;
+            background-color: rgb(30 90 17 / 60%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .hero-text {
+            width: 270px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="backdrop">
+            <div class="hero-text">
+                <h1>Text</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati natus tempore fugit sunt possimus
+                    consectetur explicabo velit laboriosam debitis, nesciunt voluptatum ipsa! Iure, quae alias sunt
+                    similique aliquam adipisci. Distinctio.</p>
+            </div>
+        </div>
+        <div class="backdrop">
+            <div class="hero-text">
+                <h1>Text</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati natus tempore fugit sunt possimus
+                    consectetur explicabo velit laboriosam debitis, nesciunt voluptatum ipsa! Iure, quae alias sunt
+                    similique aliquam adipisci. Distinctio.</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
