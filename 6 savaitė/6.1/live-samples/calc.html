@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    <style>
+        body {
+            margin: 0;
+            --header-height: 100px;
+            --header-background-color: antiquewhite;
+            --content-background-color: aqua;
+            --var-a: 20px;
+            --var-b: 30px;
+            --var-c: calc(var(--var-a) + var(--var-b));
+        }
+
+        .box {
+            width: 100px;
+            background-color: var(--header-background-color);
+        }
+
+        div:nth-child(1) {
+            width: 100vw;
+            height: var(--header-height);
+        }
+
+        div:nth-child(2) {
+            width: 100%;
+            height: calc(100vh - var(--header-height));
+            background-color: var(--header-background-color);
+            background-color: var(--content-background-color);
+        }
+
+        .dark-mode {
+            --header-background-color: rgb(175, 162, 144);
+            --content-background-color: rgb(9, 172, 172);
+        }
+
+        div.content-box {
+            height: var(--var-c);
+            background-color: aquamarine;
+        }
+
+        @media (max-width: 450px) {
+            body {
+                --header-height: 50px;
+            }
+
+            /* div:nth-child(1) {                
+                height: 50px;
+            } */
+
+            /* div:nth-child(2) {
+                height: 100%;
+            } */
+        }
+    </style>
+</head>
+
+<!-- <body class="dark-mode"> -->
+
+<body>
+    <!-- <section style="height: 100vh;"> -->
+    <div class="box"></div>
+    <div class="box">
+        <div class="content-box"></div>
+    </div>
+    <!-- </section> -->
+</body>
+
+</html>

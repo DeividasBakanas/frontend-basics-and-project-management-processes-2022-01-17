@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradientai</title>
+    <style>
+        .box {
+            height: 500px;
+            width: 500px;
+            margin-bottom: 20px;
+        }
+
+        .left-top {
+            background-image: linear-gradient(to left top, red, blue);
+        }
+
+        .right-bottom {
+            background-image: linear-gradient(to right bottom, red, blue);
+        }
+
+        .bottom {
+            background-image: linear-gradient(to bottom, red, blue);
+        }
+
+        .top {
+            background-image: linear-gradient(to top, red, blue);
+        }
+
+        .left {
+            background-image: linear-gradient(to left, red, blue);
+        }
+
+        .right {
+            background-image: linear-gradient(to right, red, blue);
+        }
+
+        .strange-angle {
+            background-image: linear-gradient(75deg, red, blue);
+        }
+
+        .percentage-stop {
+            background-image: linear-gradient(red 25%, blue 30%);
+        }
+
+        .length-top {
+            background-image: linear-gradient(red 100px 150px, blue 200px 250px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box left-top"></div>
+    <div class="box right-bottom"></div>
+    <div class="box bottom"></div>
+    <div class="box top"></div>
+    <div class="box left"></div>
+    <div class="box right"></div>
+    <div class="box strange-angle"></div>
+    <div class="box percentage-stop"></div>
+    <div class="box length-top"></div>
+</body>
+
+</html>

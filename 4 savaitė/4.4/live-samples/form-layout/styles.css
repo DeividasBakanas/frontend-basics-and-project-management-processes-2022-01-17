@@ -2,24 +2,43 @@
     box-sizing: border-box;
 }
 
+:root {
+    --acent-color: #f569ac;
+    --brand-blue: #2f3765;
+    --brand-blue-light: #4f5c88;
+    --white: #fff;
+}
+
+.brand-1 {
+    --acent-color: #8aff66;
+    --brand-blue: #8e9ae2;
+    --brand-blue-light: #c2d0fb;
+    --white: rgb(0, 0, 0);
+}
+
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: sans-serif;
-    background-color: #2f3765;
-    color: white;
+    /* background-color: var(--brand-blue); */
+    background-image: linear-gradient(to right, #181c49 5%, #2F3764 50% 70%, #181c49 99%);
+    color: var(--white);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 a {
-    color: #fff;
+    color: var(--white);
     text-decoration: none;
 }
 
 input,
 textarea {
-    background-color: #4f5c88;
-    color: white;
+    background-color: var(--brand-blue-light);
+    color: var(--white);
     padding: 12px;
     border: none;
     border-radius: 12px;
@@ -27,12 +46,12 @@ textarea {
 }
 
 :focus-visible {
-    outline: #f569ac solid 2px;
+    outline: var(--acent-color) solid 2px;
 }
 
 input::placeholder,
 textarea::placeholder {
-    color: white;
+    color: var(--white);
     text-transform: capitalize;
 }
 
@@ -42,8 +61,8 @@ textarea {
 }
 
 button {
-    background-color: #f569ac;
-    color: #fff;
+    background-color: var(--acent-color);
+    color: var(--white);
     text-transform: uppercase;
     padding: 12px 26px;
     border: none;
@@ -51,7 +70,7 @@ button {
 }
 
 button:focus-visible {
-    outline-color: #4f5c88;
+    outline-color: var(--brand-blue-light);
 }
 
 .page-header,
@@ -70,7 +89,7 @@ nav {
 
 .active {
     font-weight: 700;
-    color: #f569ac;
+    color: var(--acent-color);
 }
 
 main {
@@ -102,7 +121,7 @@ form {
 
 h2 {
     font-weight: 700;
-    color: #f569ac;
+    color: var(--acent-color);
     font-size: 28px;
     padding-bottom: 10px;
 }
@@ -177,8 +196,8 @@ form button {
 
     .mobile-header {
         height: 50px;
-        background-color: #4f5c88;
-        border-bottom: 1px solid #f569ac;
+        background-color: var(--brand-blue-light);
+        border-bottom: 1px solid var(--acent-color);
     }
 
     .mobile-header:focus ~ nav {
@@ -196,15 +215,15 @@ form button {
 
     .burger-line {
         height: 6px;
-        background-color: #f569ac;
+        background-color: var(--acent-color);
     }
 
     nav {
         display: none;
         flex-direction: column;
         align-items: center;
-        background-color: #4f5c88;
-        border-bottom: 1px solid #f569ac;
+        background-color: var(--brand-blue-light);
+        border-bottom: 1px solid var(--acent-color);
         position: absolute;
         width: 100%;
         z-index: 1;
