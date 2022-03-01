@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animuota vėliava</title>
+    <style>
+        @keyframes darom-banga {
+            0% {
+                height: 50px;
+            }
+
+            50% {
+                height: 200px;
+            }
+
+            100% {
+                height: 50px;
+            }
+        }
+
+        body {
+            margin: 0;
+        }
+
+        article {
+            position: fixed;
+            bottom: 0;
+            display: flex;
+            align-items: flex-end;
+            width: 100%;
+        }
+
+        .yellow,
+        .green,
+        .red {
+            height: 50px;
+            flex: 1 0 auto;
+            animation-name: darom-banga;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+
+        .yellow {
+            background-color: #fdba0b;
+        }
+
+        .green {
+            background-color: #006a42;
+            animation-delay: 0.5s;
+        }
+
+        .red {
+            background-color: #c22229;
+            animation-delay: 1s;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <div class="yellow"></div>
+        <div class="green"></div>
+        <div class="red"></div>
+    </article>
+</body>
+
+</html>

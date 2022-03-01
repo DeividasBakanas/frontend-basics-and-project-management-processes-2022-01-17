@@ -25,14 +25,33 @@ Papildomi šaltiniai
 -   background-size <https://developer.mozilla.org/en-US/docs/Web/CSS/background-size>.
 -   CSS gradiento kodo generavimas <https://cssgradient.io/>.
 -   Gradientų galerija <https://uigradients.com>.
+-   Hero image - full design <https://www.behance.net/gallery/87986829/What-if-Bentley-website-was-luxurious-Concept>.
 
 ## 6.2
 
 Temos
 
+-   Filtrai
+-   Šešėliai (box-shadow)
+-   Transformacijos (2D ir 3D)
+-   CSS perėjimai - pirmas žingsnis į animaciją
+-   Trumpa užduotis - švyturėliai [sąlyga](./6.2/assigments/transitioned-gradients/README.md)
+-   CSS animacijos
+-   Trumpa užduotis - vėliavos plevenimas [sąlyga](./6.2/assigments/animated-flag/README.md)
+
 Pagrindiniai šaltiniai
 
+-   filter <https://css-tricks.com/almanac/properties/f/filter/>, <https://developer.mozilla.org/en-US/docs/Web/CSS/filter>, <https://web.dev/learn/css/filters/>
+-   box-shadow <https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow>
+-   transform <https://developer.mozilla.org/en-US/docs/Web/CSS/transform>
+-   transition <https://developer.mozilla.org/en-US/docs/Web/CSS/transition>, <https://web.dev/learn/css/transitions/>
+-   animation <https://developer.mozilla.org/en-US/docs/Web/CSS/animation>, <https://web.dev/learn/css/animations/>
+
 Papildomi šaltiniai
+
+-   Transform editor <https://html-css-js.com/css/generator/transform/>
+-   Box shadow editor <https://html-css-js.com/css/generator/box-shadow/>
+-   Jau paruošti perėjimai <https://www.transition.style/#in:square:top-right>
 
 ## 6.3
 
