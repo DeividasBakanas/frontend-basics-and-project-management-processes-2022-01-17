@@ -1,0 +1,77 @@
+html {
+    font-family: sans-serif;
+}
+
+:root {
+    --light-text: #858585;
+    --dark-background: #1e1e1e;
+    --accent-color: #325b4c;
+    --light-background: #f6f6f6;
+    --dark-text: #212121;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+
+button {
+    background-color: white;
+    border-width: 0;
+    border-radius: 4px;
+    padding: 15px 0;
+    width: 180px;
+    font-weight: 600;
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+button.green {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 15px 0;
+    width: 230px;
+}
+
+button:hover {
+    background-color: var(--light-text);
+    color: white;
+}
+
+.hero-section {
+    height: 100vh;
+    background-image: url("https://s.aolcdn.com/os/ab/_cms/2019/10/11192400/RP-Bentley-Extreme-Silver-Flying-Spur-Monaco-48.jpg");
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-section header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+}
+
+.hero-section header .burger-container,
+.hero-section header .search-button {
+    padding: 10px;
+}
+
+.hero-section header .burger-container svg,
+.hero-section header .search-button svg {
+    fill: white;
+}
+
+.hero-section section {
+    padding: 0 65px;
+    padding-bottom: 90px;
+}
