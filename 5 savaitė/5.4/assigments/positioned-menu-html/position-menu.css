@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 80%;
+    background-color: aqua;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.menu-list > li {
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-list > li:focus .submenu-list,
+.menu-list > li:focus-within .submenu-list {
+    display: flex;
+}
+
+.submenu-list {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    list-style-type: none;
+    top: 40px;
+    background-color: aquamarine;
+    width: 250px;
+    padding: 20px;
+}
+
+.submenu-list :not(:last-child) {
+    padding-bottom: 10px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
