@@ -57,9 +57,24 @@ Papildomi šaltiniai
 
 Temos
 
+-   Vendor prefixes
+-   Grid
+-   Trumpos užduotys:
+    -   klasikinis layout’as;
+    -   klasikinio layout’o zonos;
+-   Holy grail layout naudojant grid
+-   Namų darbas - [Grid Garden](https://cssgridgarden.com/#lt).
+
 Pagrindiniai šaltiniai
 
+-   Vendor prefixes <https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix>
+-   Grid <https://css-tricks.com/snippets/css/complete-guide-grid/>, <https://www.w3schools.com/css/css_grid.asp>, <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout>
+
 Papildomi šaltiniai
+
+-   Auto Prefixer <https://autoprefixer.github.io/>
+-   fr unit <https://css-tricks.com/introduction-fr-css-unit/>
+-   Mozilla Grid tutorial'as <https://mozilladevelopers.github.io/playground/css-grid/>
 
 ## 6.4
 

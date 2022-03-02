@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <main>
+        <header class="page-header">
+            <div class="mobile-header" tabindex="0">
+                <div class="burger-button">
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                </div>
+            </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Blog</a>
+                <a href="#">About</a>
+                <a class="active" href="#">Contact</a>
+            </nav>
+        </header>
+        <section class="user-contacts">
+            <header>
+                <h2>Just say Hello !</h2>
+                <span>Let us know about you !</span>
+            </header>
+            <form>
+                <span class="row">
+                    <input name="name" placeholder="First name" />
+                    <input name="last-name" placeholder="Last name" />
+                </span>
+                <span class="row">
+                    <input type="email" name="email" placeholder="Mail">
+                    <input type="tel" name="phone" placeholder="Phone">
+                </span>
+                <textarea name="message" placeholder="Message"></textarea>
+                <button>Submit</button>
+            </form>
+        </section>
+        <section class="company-contacts">
+            <article class="company-contacts-container">
+                <section>
+                    <h2>Contact Information</h2>
+                    <address>
+                        77 Baker Street<br>
+                        Bondowoso. 87655<br>
+                        Indonesia
+                    </address>
+                    <p>
+                        Call Us : <a href="tel:+62813346100">+62 81 334 61 00</a>
+                    </p>
+                    <p>
+                        We are open from <time>Monday - Friday</time><br>
+                        <time>08.00 am - 05.00 pm</time>
+                    </p>
+                </section>
+                <section class="follow-us">
+                    <h2>Follow Us</h2>
+                    <span>
+                        <a href="#">facebook</a>
+                        <a href="#">instagram</a>
+                        <a href="#">vimeo</a>
+                    </span>
+                </section>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
