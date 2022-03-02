@@ -25,6 +25,14 @@ body {
     font-family: sans-serif;
     background-image: linear-gradient(to right, #181c49 5%, #2f3764 50% 70%, #181c49 99%);
     color: var(--white);
+
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-start; */
+
+    display: grid;
+    justify-items: center;
+    align-items: flex-start;
 }
 
 main {
