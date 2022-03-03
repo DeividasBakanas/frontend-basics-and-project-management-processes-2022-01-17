@@ -80,6 +80,19 @@ Papildomi šaltiniai
 
 Temos
 
+-   Holy grail layout pavyzdys naudojant Grid (responsive)
+-   Trumpa užduotis - landing page naudojant CSS Grid
+-   Programavimo aplinkos ir kūrimo proceso valdymas ir versijų kontrolė
+    -   Kodo aplinkos
+        -   Handlebars
+        -   Bootstrap
+
 Pagrindiniai šaltiniai
 
+-   Grid <https://css-tricks.com/snippets/css/complete-guide-grid/>, <https://www.w3schools.com/css/css_grid.asp>, <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout>
+-   HTML iš template'ų - Handlebars <https://handlebarsjs.com/>
+-   CSS karkasas Bootstrap <https://getbootstrap.com/>
+
 Papildomi šaltiniai
+
+-   Layout patterns <https://web.dev/patterns/layout/>

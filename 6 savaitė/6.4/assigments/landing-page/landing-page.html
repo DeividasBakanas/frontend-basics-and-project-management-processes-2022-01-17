@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            display: grid;
+            --header-height: 80px;
+            grid-template-rows: var(--header-height) calc(100vh - var(--header-height)) 100vh 100vh 100vh 100vh;
+        }
+
+        header {
+            background-color: orange;
+        }
+
+        section {
+            display: grid;
+            place-items: center;
+        }
+
+        section:nth-child(odd) {
+            background-color: skyblue;
+        }
+
+        section:nth-child(even) {
+            background-color: tomato;
+        }
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <section>Section 1</section>
+    <section>Section 2</section>
+    <section>Section 3</section>
+    <section>Section 4</section>
+    <section>Section 5</section>
+</body>
+
+</html>

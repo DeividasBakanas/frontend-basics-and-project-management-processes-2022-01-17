@@ -39,6 +39,7 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
+    padding: 0 30px;
 }
 
 .page-header {
@@ -190,8 +191,16 @@ form button {
 }
 
 @media (max-width: 798px) {
-    main {
+    /* main {
         flex-direction: column;
+    } */
+
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    .page-header {
+        grid-column: initial;
     }
 
     .company-contacts-container {
@@ -204,9 +213,21 @@ form button {
         position: relative;
     }
 
+    main {
+        padding: initial;
+    }
+
+    .user-contacts {
+        padding: 0 20px 35px 20px;
+    }
+
     form .row {
         flex-direction: column;
         padding-bottom: 20px;
+    }
+
+    form button {
+        width: 100%;
     }
 
     .mobile-header {
