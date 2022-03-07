@@ -4,9 +4,13 @@
 
 Temos
 
+-   Tips and Tricks
+-   Užduotis - dizaino skaidymas
+
 Pagrindiniai šaltiniai
 
-Papildomi šaltiniai
+-   Vogue redesign - <https://www.behance.net/gallery/134175911/Vogue-UK-redesign-website>
+-   Air France redesign <https://www.behance.net/gallery/137352233/Air-France-Redesign-concept-of-a-corporate-web-site>
 
 ## 7.2
 
