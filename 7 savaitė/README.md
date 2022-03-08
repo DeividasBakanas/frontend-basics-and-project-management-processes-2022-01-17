@@ -27,10 +27,15 @@ Temos
 
 Pagrindiniai šaltiniai
 
+-   Vogue redesign - <https://www.behance.net/gallery/134175911/Vogue-UK-redesign-website>
+-   Bootstrap - <https://getbootstrap.com/>
+-   SASS / SCSS - <https://sass-lang.com/guide>
 -   Integruotos programavimo aplinkos <https://www.veracode.com/security/integrated-development-environment>
 -   Projekto aplinkos <https://umbraco.com/knowledge-base/development-environment/>
 
 Papildomi šaltiniai
+
+-   Tailwind CSS - <https://tailwindcss.com/>
 
 ## 7.3
 
@@ -38,14 +43,7 @@ Temos
 
 Pagrindiniai šaltiniai
 
--   Vogue redesign - <https://www.behance.net/gallery/134175911/Vogue-UK-redesign-website>
--   Bootstrap - <https://getbootstrap.com/>
--   SASS / SCSS - <https://sass-lang.com/guide>
--   Projekto aplinkos - <https://umbraco.com/knowledge-base/development-environment/>
-
 Papildomi šaltiniai
-
--   Tailwind CSS - <https://tailwindcss.com/>
 
 ## 7.4
 
