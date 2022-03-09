@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        header .burger-button {
+            display: none;
+        }
+
+        header ul {
+            width: 100%;
+            padding-left: 0;
+
+            display: flex;
+            justify-content: space-around;
+        }
+
+        header li {
+            list-style-type: none;
+            border: 1px solid black;
+        }
+
+        @media (max-width: 800px) {
+            header:focus {
+                position: relative;
+            }
+
+            header .burger-button {
+                display: block;
+            }
+
+
+            header input[type="checkbox"] {
+                display: none;
+            }
+
+            header input[type="checkbox"]:checked+ul {
+                display: flex;
+            }
+
+            /* 
+            header .burger-button:focus+ul {
+                display: flex;
+            } */
+
+            header ul {
+                display: none;
+                position: absolute;
+                background-color: white;
+                margin: 0;
+                padding: 1em;
+                border-bottom: 1px solid black;
+                top: 24px;
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- <div tabindex="0" class="burger-button">Open burger</div> -->
+        <label for="burger-checkbox">Open burger</label>
+        <input id="burger-checkbox" type="checkbox" />
+        <ul>
+            <li>List Item A</li>
+            <li>List Item B</li>
+            <li>List Item C</li>
+            <li>List Item D</li>
+            <li>List Item E</li>
+            <li>List Item F</li>
+            <li>List Item G</li>
+            <li>List Item H</li>
+        </ul>
+    </header>
+    <main>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis rem sit doloremque quasi nobis dolore vel maiores
+        atque fuga, nemo inventore delectus exercitationem obcaecati distinctio, reprehenderit ratione quae unde eos.
+
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis rem sit doloremque quasi nobis dolore vel maiores
+        atque fuga, nemo inventore delectus exercitationem obcaecati distinctio, reprehenderit ratione quae unde eos.
+
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis rem sit doloremque quasi nobis dolore vel maiores
+        atque fuga, nemo inventore delectus exercitationem obcaecati distinctio, reprehenderit ratione quae unde eos.
+
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis rem sit doloremque quasi nobis dolore vel maiores
+        atque fuga, nemo inventore delectus exercitationem obcaecati distinctio, reprehenderit ratione quae unde eos.
+    </main>
+</body>
+
+</html>
