@@ -66,6 +66,40 @@ Papildomi šaltiniai
 
 Temos
 
+-   Kūrimo proceso valdymas
+    -   Agile
+        -   Scrum
+        -   Kanban
+    -   Kas toliau?
+    -   Feedback apžvalga
+-   Bonus planas
+    -   LinkedIn - socialinis tinklas profesionalams
+    -   Kaip įgyti darbdavio pasitikėjimą?
+        -   Pavyzdiniai projektai
+        -   Kodo pavyzdžiai
+        -   Asmeninis puslapis
+            -   Kur talpinti asmeninį puslapį nemokamai?
+    -   Kaip sužinoti naujienas?
+
 Pagrindiniai šaltiniai
 
+-   Agile and Scrum <https://www.cprime.com/resources/what-is-agile-what-is-scrum/>
+-   Scrum <https://www.pm-partners.com.au/the-agile-journey-a-scrum-overview/>
+-   Agile Manifestas <https://agilemanifesto.org/>, <http://agilemanifesto.org/principles.html>
+-   Kanban <https://www.wesquare.nl/scrum-vs-kanban-a-fair-comparison/>, <https://www.cprime.com/resources/blog/3-differences-between-scrum-and-kanban-you-need-to-know/>
+-   Bloopers - nepavykusių pavyzdžių reabilitavimas :P [Čia...](../bloopers.md)
+
 Papildomi šaltiniai
+
+-   JavaScript pagrindai <https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics>
+-   Atlassian Jira <https://www.atlassian.com/software/jira>
+-   Azure DevOps <https://azure.microsoft.com/en-us/services/devops/>
+-   Cumulative Flow Diagram <https://kanbanize.com/kanban-resources/kanban-analytics/cumulative-flow-diagram>
+-   Retrospektyvoms - Easy Retro <https://easyretro.io/>
+-   Tools and Testing <https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing>
+-   JavaScript <https://developer.mozilla.org/en-US/docs/Learn/JavaScript>
+-   React <https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started>F
+-   Frontend Mentor <https://www.frontendmentor.io/>
+-   Daugiau front-end challange'ų <https://css-tricks.com/front-end-challenges/>
+-   Behance <http://behance.com/>
+-   W3Schools mokomieji projektai <https://www.w3schools.com/css/css_rwd_templates.asp>

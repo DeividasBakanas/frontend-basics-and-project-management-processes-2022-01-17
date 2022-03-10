@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Update date</title>
+    <script>
+        // Kai langas užkraunamas
+        window.addEventListener('load', function () {
+            // Randame mygtuką
+            const updateDateButton = document.getElementById('update-date-button');
+            // Kai mygtukas paspaustas
+            updateDateButton.addEventListener('click', function () {
+                document.getElementById('date-container').innerHTML = new Date();
+            });
+        });
+    </script>
+</head>
+<body>
+    <button id="update-date-button">Update date!</button>
+    <div id="date-container"></div>
+</body>
+</html>
+
+
+

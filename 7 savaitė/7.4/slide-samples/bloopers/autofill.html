@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autofill pseudo-class</title>
+    <style>
+        input:-webkit-autofill {
+            outline: firebrick solid 20px;
+            border: 35px solid green;
+        }
+
+        input:autofill {
+            outline: firebrick solid 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="https://www.google.com/search" method="get" id="search-form">
+        <input type="text" name="q" placeholder="Įveskite paieškos frazę!" />
+        <button>"Google" paieška</button>
+        <input type="submit" value="&quot;Bing&quot; paieška" formaction="https://www.bing.com/search" />
+        <input type="submit" value="&quot;Yahoo&quot; paieška" formaction="https://search.yahoo.com/search" />
+    </form>
+</body>
+
+</html>

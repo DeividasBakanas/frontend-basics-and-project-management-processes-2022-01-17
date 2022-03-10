@@ -22,7 +22,8 @@ Viso 70 valandų per 7 savaites.
 -   [Klavišų kombinacijos](./keyboard-shortcuts.md)
 -   [Kaip Google'inti?](./how-to-google.md)
 -   [Dėstymo struktūra](./structure.md)
+-   [Nepavykusių pavyzdžių rinkinys](./bloopers.md)
 
 ## Contributions
 
-- DeividasBakanasBIT
+-   DeividasBakanasBIT
