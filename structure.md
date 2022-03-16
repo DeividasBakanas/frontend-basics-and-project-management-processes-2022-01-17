@@ -39,3 +39,32 @@ Paskaitos pradžioje atliekama "garso patikra" - pažymimas lankomumas.
 Klausimai užduodami paskaitos metu - iškart kai kyla neaiškumas.
 
 Kadangi studentų kiekis nėra mažas, einamojo statuso aptarimui naudojama "Stand-up ruletė", [atsitiktinai](https://www.random.org/lists/) parenkami 4 - 6 studentai, kurių prašoma pasidalinti jiems kilusiais neaiškumais, jų progresu paskaitos / kurso masteliu. Atsitiktinis parinkimas naudojamas siekiant suteikti vienodas galimybes pasisakyti visiems studentams.
+
+## Turinio tobulinimas
+
+### Medžiagos papildymas / praplėtimas
+
+**HTML**
+
+-   Pridėti **tabindex** atributą.
+-   Prie HTML formų dalies papasakoti apie CAPTCHA mechanizmą, taikymus ir poreikį.
+-   Nenaudoti tarpų failų pavadinimuose pirmame HTML namų darbe - percent encoding įneša neaiškumų.
+
+**CSS**
+
+-   Prie pseudo-klasių pridėti **:not**.
+-   Pridėti CSS grid responsiveness naudojant autofit ir / ar autofill.
+-   Prie CSS grid temų pridėti **min-content**, **max-content**. Galimai šalia **minmax** temos.
+-   Prie animacijų pridėti SVG animacijų skiltį - pademonstruoti bent vieną įrankį, kuriuo galima animuoti SVG elementų dalis.
+-   Pridėti `z-index` nupasakojimą. Galimai šalia `position` property temos.
+-   Prie background-image ir KO temos pridėti `background-attachment` CSS property demonstraciją.
+-   Suformuoti formų style'inimo intarpą, kur būtų parodytas `appearance` CSS property ir checkbox, select stilių limitacijos.
+
+**Dizainas**
+
+-   Atskirai panagrinėti ir pademonstruoti - kaip dizainas skaidomas elementais, kokius įrankius (Paint, Photopea) galima panaudoti.
+-   Detalizuoti, ką turi pateikti dizaineris, o ką gali susirasti / pats parinkti Front-end programuotojas idealiu atveju? Expectation vs. reality.
+
+**Mokymo procesas**
+
+-   Įtraukti code review procesą (tarp studentų) į užduočių atlikimą. Kodo aptarimas ir palyginimas leistų giliau įsisavinti žinias.
